@@ -1,105 +1,105 @@
-﻿{
-    "schema":  1,
-    "min_supported_version":  "",
-    "releases":  {
-                     "0.1.6":  {
-                                   "published_at":  "2026-07-14",
-                                   "from_tag":  "v0.1.5",
-                                   "from_commit":  "46892bc98746479ee6a8901fe12f4ac933a4927d",
-                                   "to_tag":  "v0.1.6",
-                                   "to_commit":  "87a7f83edeee30465d060080a08489f61b33b7bd",
-                                   "notes":  {
-                                                 "en_US":  [
-                                                               "Added screen capture support for faster sharing and AI-assisted workflows.",
-                                                               "Added quick access to ChatGPT, Claude, web search, and configured websites.",
-                                                               "Improved website opening with configurable pop-up behavior.",
-                                                               "Release version information and update notes are now displayed more clearly in the app.",
-                                                               "Reordered available actions to make commonly used features easier to reach.",
-                                                               "Unavailable features are now disabled to prevent accidental selection.",
-                                                               "Added Windows release package support."
-                                                           ],
-                                                 "zh_CN":  [
-                                                               "æ–°å¢å±å¹•æˆªå›¾åŸèƒ½ï¼Œä¾¿äºå¿«é€Ÿåˆ†äº«å†…å®¹å¹¶é…åˆ AI å·¥ä½œæµä½¿ç”¨ă€‚",
-                                                               "æ–°å¢ ChatGPTă€Claudeă€ç½‘é¡µæœç´¢å’Œå·²é…ç½®ç½‘ç«™ç„å¿«æ·å…¥å£ă€‚",
-                                                               "ä¼˜åŒ–ç½‘ç«™æ‰“å¼€æ–¹å¼ï¼Œå¹¶æ”¯æŒå¯é…ç½®ç„å¼¹çª—è¡Œä¸ºă€‚",
-                                                               "åº”ç”¨å†…å¯æ›´æ¸…æ™°åœ°æŸ¥çœ‹ç‰ˆæœ¬ä¿¡æ¯å’Œæ›´æ–°è¯´æ˜ă€‚",
-                                                               "è°ƒæ•´åŸèƒ½æ’åˆ—é¡ºåºï¼Œè®©å¸¸ç”¨æ“ä½œæ›´æ˜“è®¿é—®ă€‚",
-                                                               "å°æœªå¼€æ”¾ç„åŸèƒ½ç°åœ¨ä¼è¢«ç¦ç”¨ï¼Œé¿å…è¯¯æ“ä½œă€‚",
-                                                               "æ–°å¢ Windows ç‰ˆæœ¬å‘å¸ƒåŒ…æ”¯æŒă€‚"
-                                                           ],
-                                                 "ja_JP":  [
-                                                               "ç”»é¢ă‚­ăƒ£ăƒ—ăƒăƒ£æ©Ÿèƒ½ă‚’è¿½å ă—ă€å…±æœ‰ă‚„AIă‚’æ´»ç”¨ă—ăŸæ“ä½œă‚’ă‚ˆă‚ç°¡å˜ă«ă—ă¾ă—ăŸă€‚",
-                                                               "ChatGPTă€Claudeă€Webæ¤œç´¢ă€è¨­å®æ¸ˆă¿Webă‚µă‚¤ăƒˆă¸ă™ă°ă‚„ăă‚¢ă‚¯ă‚»ă‚¹ă§ăă‚‹ă‚ˆă†ă«ăªă‚ă¾ă—ăŸă€‚",
-                                                               "Webă‚µă‚¤ăƒˆă‚’é–‹ăå‹•ä½œă‚’æ”¹å–„ă—ă€ăƒăƒƒăƒ—ă‚¢ăƒƒăƒ—ă®è¨­å®ă«å¯¾å¿œă—ă¾ă—ăŸă€‚",
-                                                               "ă‚¢ăƒ—ăƒªå†…ă§ăƒăƒ¼ă‚¸ăƒ§ăƒ³æƒ…å ±ă¨ăƒªăƒªăƒ¼ă‚¹ăƒăƒ¼ăƒˆă‚’ă‚ˆă‚åˆ†ă‹ă‚ă‚„ă™ăç¢ºèªă§ăă‚‹ă‚ˆă†ă«ăªă‚ă¾ă—ăŸă€‚",
-                                                               "ă‚ˆăä½¿ă†æ©Ÿèƒ½ă¸ă‚¢ă‚¯ă‚»ă‚¹ă—ă‚„ă™ă„ă‚ˆă†ă€æ“ä½œé …ç›®ă®å„ªå…ˆé †ä½ă‚’èª¿æ•´ă—ă¾ă—ăŸă€‚",
-                                                               "æœªå¯¾å¿œă®æ©Ÿèƒ½ă‚’ç„¡å¹åŒ–ă—ă€èª¤æ“ä½œă‚’é˜²æ­¢ă—ă¾ă—ăŸă€‚",
-                                                               "Windowså‘ă‘ăƒªăƒªăƒ¼ă‚¹ăƒ‘ăƒƒă‚±ăƒ¼ă‚¸ă«å¯¾å¿œă—ă¾ă—ăŸă€‚"
-                                                           ],
-                                                 "ko_KR":  [
-                                                               "í™”ë©´ ́º¡́²˜ ê¸°ë¥́„ ́¶”ê°€í•´ ́½˜í…́¸  ê³µ́œ ́™€ AI í™œ́© ́‘́—…́„ ë”́± í¸ë¦¬í•˜ê²Œ ë§Œë“¤́—ˆ́µë‹ˆë‹¤.",
-                                                               "ChatGPT, Claude, ́›¹ ê²€́ƒ‰ ë° ́„¤́ •ëœ ́›¹́‚¬́´í¸ë¡œ ë¹ ë¥´ê²Œ ́´ë™í•  ́ˆ˜ ́ˆ́µë‹ˆë‹¤.",
-                                                               "́›¹́‚¬́´í¸ ́—´ê¸° ë™́‘́„ ê°œ́„ í•˜ê³  ́„¤́ • ê°€ë¥í•œ íŒ́—… ë°©́‹́„ ́§€́›í•©ë‹ˆë‹¤.",
-                                                               "́•±́—́„œ ë²„́ „ ́ •ë³´́™€ ë¦´ë¦¬́¤ ë…¸í¸ë¥¼ ë”́± ëª…í™•í•˜ê²Œ í™•́¸í•  ́ˆ˜ ́ˆ́µë‹ˆë‹¤.",
-                                                               "́́£¼ ́‚¬́©í•˜ë” ê¸°ë¥́— ́‰½ê²Œ ́ ‘ê·¼í•  ́ˆ˜ ́ˆë„ë¡ ê¸°ë¥ ́ˆœ́„œë¥¼ ́¡°́ •í–ˆ́µë‹ˆë‹¤.",
-                                                               "́•„́§ ́ œê³µë˜́§€ ́•ë” ê¸°ë¥́€ ́‹¤́ˆ˜ë¡œ ́„ íƒí•˜́§€ ́•ë„ë¡ ë¹„í™œ́„±í™”í–ˆ́µë‹ˆë‹¤.",
-                                                               "Windows ë¦´ë¦¬́¤ íŒ¨í‚¤́§€ ́§€́›́„ ́¶”ê°€í–ˆ́µë‹ˆë‹¤."
-                                                           ],
-                                                 "fr_FR":  [
-                                                               "Ajout de la capture dâ€™Ă©cran pour faciliter le partage et les flux de travail assistĂ©s par lâ€™IA.",
-                                                               "Ajout dâ€™un accĂ¨s rapide Ă  ChatGPT, Claude, la recherche web et aux sites configurĂ©s.",
-                                                               "AmĂ©lioration de lâ€™ouverture des sites web avec un comportement de fenĂªtre contextuelle configurable.",
-                                                               "Les informations de version et les notes de mise Ă  jour sont dĂ©sormais plus clairement affichĂ©es dans lâ€™application.",
-                                                               "RĂ©organisation des actions pour faciliter lâ€™accĂ¨s aux fonctions les plus utilisĂ©es.",
-                                                               "Les fonctions non disponibles sont dĂ©sormais dĂ©sactivĂ©es afin dâ€™Ă©viter toute sĂ©lection accidentelle.",
-                                                               "Ajout de la prise en charge du package de publication Windows."
-                                                           ],
-                                                 "de_DE":  [
-                                                               "Bildschirmaufnahmen wurden hinzugefĂ¼gt, um Inhalte schneller zu teilen und KI-gestĂ¼tzte AblĂ¤ufe zu vereinfachen.",
-                                                               "Schnellzugriffe auf ChatGPT, Claude, die Websuche und konfigurierte Websites wurden ergĂ¤nzt.",
-                                                               "Das Ă–ffnen von Websites wurde verbessert und unterstĂ¼tzt nun konfigurierbare Pop-up-Einstellungen.",
-                                                               "Versionsinformationen und VerĂ¶ffentlichungshinweise werden jetzt Ă¼bersichtlicher in der App angezeigt.",
-                                                               "HĂ¤ufig verwendete Funktionen sind durch eine neue Anordnung leichter erreichbar.",
-                                                               "Noch nicht verfĂ¼gbare Funktionen sind jetzt deaktiviert, um versehentliche Auswahl zu vermeiden.",
-                                                               "UnterstĂ¼tzung fĂ¼r Windows-VerĂ¶ffentlichungspakete wurde hinzugefĂ¼gt."
-                                                           ],
-                                                 "es_ES":  [
-                                                               "Se aĂ±adiĂ³ la captura de pantalla para facilitar el uso compartido y los flujos de trabajo asistidos por IA.",
-                                                               "Se aĂ±adiĂ³ acceso rĂ¡pido a ChatGPT, Claude, la bĂºsqueda web y los sitios configurados.",
-                                                               "Se mejorĂ³ la apertura de sitios web con un comportamiento de ventanas emergentes configurable.",
-                                                               "La informaciĂ³n de versiĂ³n y las notas de actualizaciĂ³n ahora se muestran con mayor claridad en la aplicaciĂ³n.",
-                                                               "Se reorganizaron las acciones para facilitar el acceso a las funciones mĂ¡s utilizadas.",
-                                                               "Las funciones que todavĂ­a no estĂ¡n disponibles ahora aparecen deshabilitadas para evitar selecciones accidentales.",
-                                                               "Se aĂ±adiĂ³ compatibilidad con el paquete de lanzamiento para Windows."
-                                                           ],
-                                                 "pt_BR":  [
-                                                               "Adicionamos a captura de tela para facilitar o compartilhamento e os fluxos de trabalho com IA.",
-                                                               "Adicionamos acesso rĂ¡pido ao ChatGPT, Claude, pesquisa na web e sites configurados.",
-                                                               "Melhoramos a abertura de sites com comportamento de janela pop-up configurĂ¡vel.",
-                                                               "As informaĂ§Ăµes da versĂ£o e as notas de atualizaĂ§Ă£o agora sĂ£o exibidas com mais clareza no aplicativo.",
-                                                               "Reorganizamos as aĂ§Ăµes para facilitar o acesso aos recursos mais utilizados.",
-                                                               "Recursos ainda indisponĂ­veis agora ficam desativados para evitar seleĂ§Ăµes acidentais.",
-                                                               "Adicionamos suporte ao pacote de lanĂ§amento para Windows."
-                                                           ],
-                                                 "ru_RU":  [
-                                                               "Đ”Đ¾Đ±Đ°Đ²Đ»ĐµĐ½Đ° Ñ„ÑƒĐ½ĐºÑ†Đ¸Ñ Đ·Đ°Ñ…Đ²Đ°Ñ‚Đ° ÑĐºÑ€Đ°Đ½Đ° Đ´Đ»Ñ ÑƒĐ´Đ¾Đ±Đ½Đ¾Đ³Đ¾ Đ¾Đ±Đ¼ĐµĐ½Đ° ÑĐ¾Đ´ĐµÑ€Đ¶Đ¸Đ¼Ñ‹Đ¼ Đ¸ Ñ€Đ°Đ±Đ¾Ñ‚Ñ‹ Ñ Đ˜Đ˜.",
-                                                               "Đ”Đ¾Đ±Đ°Đ²Đ»ĐµĐ½ Đ±Ñ‹ÑÑ‚Ñ€Ñ‹Đ¹ Đ´Đ¾ÑÑ‚ÑƒĐ¿ Đº ChatGPT, Claude, Đ²ĐµĐ±-Đ¿Đ¾Đ¸ÑĐºÑƒ Đ¸ Đ½Đ°ÑÑ‚Ñ€Đ¾ĐµĐ½Đ½Ñ‹Đ¼ ÑĐ°Đ¹Ñ‚Đ°Đ¼.",
-                                                               "Đ£Đ»ÑƒÑ‡ÑˆĐµĐ½Đ¾ Đ¾Ñ‚ĐºÑ€Ñ‹Ñ‚Đ¸Đµ ÑĐ°Đ¹Ñ‚Đ¾Đ² Đ¸ Đ´Đ¾Đ±Đ°Đ²Đ»ĐµĐ½Đ° Đ½Đ°ÑÑ‚Ñ€Đ¾Đ¹ĐºĐ° Đ¿Đ¾Đ²ĐµĐ´ĐµĐ½Đ¸Ñ Đ²ÑĐ¿Đ»Ñ‹Đ²Đ°ÑÑ‰Đ¸Ñ… Đ¾ĐºĐ¾Đ½.",
-                                                               "Đ˜Đ½Ñ„Đ¾Ñ€Đ¼Đ°Ñ†Đ¸Ñ Đ¾ Đ²ĐµÑ€ÑĐ¸Đ¸ Đ¸ Đ¿Ñ€Đ¸Đ¼ĐµÑ‡Đ°Đ½Đ¸Ñ Đº Đ¾Đ±Đ½Đ¾Đ²Đ»ĐµĐ½Đ¸Ñ Ñ‚ĐµĐ¿ĐµÑ€ÑŒ Đ¾Ñ‚Đ¾Đ±Ñ€Đ°Đ¶Đ°ÑÑ‚ÑÑ Đ² Đ¿Ñ€Đ¸Đ»Đ¾Đ¶ĐµĐ½Đ¸Đ¸ Đ±Đ¾Đ»ĐµĐµ Đ½Đ°Đ³Đ»ÑĐ´Đ½Đ¾.",
-                                                               "Đ˜Đ·Đ¼ĐµĐ½Ñ‘Đ½ Đ¿Đ¾Ñ€ÑĐ´Đ¾Đº Đ´ĐµĐ¹ÑÑ‚Đ²Đ¸Đ¹, Ñ‡Ñ‚Đ¾Đ±Ñ‹ Ñ‡Đ°ÑÑ‚Đ¾ Đ¸ÑĐ¿Đ¾Đ»ÑŒĐ·ÑƒĐµĐ¼Ñ‹Đµ Ñ„ÑƒĐ½ĐºÑ†Đ¸Đ¸ Đ±Ñ‹Đ»Đ¸ Đ´Đ¾ÑÑ‚ÑƒĐ¿Đ½ĐµĐµ.",
-                                                               "ĐĐµĐ´Đ¾ÑÑ‚ÑƒĐ¿Đ½Ñ‹Đµ Ñ„ÑƒĐ½ĐºÑ†Đ¸Đ¸ Ñ‚ĐµĐ¿ĐµÑ€ÑŒ Đ¾Ñ‚ĐºĐ»ÑÑ‡ĐµĐ½Ñ‹, Ñ‡Ñ‚Đ¾Đ±Ñ‹ Đ¸Đ·Đ±ĐµĐ¶Đ°Ñ‚ÑŒ ÑĐ»ÑƒÑ‡Đ°Đ¹Đ½Đ¾Đ³Đ¾ Đ²Ñ‹Đ±Đ¾Ñ€Đ°.",
-                                                               "Đ”Đ¾Đ±Đ°Đ²Đ»ĐµĐ½Đ° Đ¿Đ¾Đ´Đ´ĐµÑ€Đ¶ĐºĐ° Đ²Ñ‹Đ¿ÑƒÑĐºĐ° ÑƒÑÑ‚Đ°Đ½Đ¾Đ²Đ¾Ñ‡Đ½Đ¾Đ³Đ¾ Đ¿Đ°ĐºĐµÑ‚Đ° Đ´Đ»Ñ Windows."
-                                                           ],
-                                                 "vi_VN":  [
-                                                               "Bá»• sung tĂ­nh nÄƒng chá»¥p mĂ n hĂ¬nh, giĂºp chia sáº» ná»™i dung vĂ  sá»­ dá»¥ng cĂ¡c quy trĂ¬nh há»— trá»£ bá»Ÿi AI thuáº­n tiá»‡n hÆ¡n.",
-                                                               "Bá»• sung lá»‘i táº¯t Ä‘á»ƒ má»Ÿ nhanh ChatGPT, Claude, tĂ¬m kiáº¿m web vĂ  cĂ¡c trang web Ä‘Ă£ cáº¥u hĂ¬nh.",
-                                                               "Cáº£i thiá»‡n cĂ¡ch má»Ÿ trang web vĂ  há»— trá»£ tĂ¹y chá»‰nh hĂ nh vi cá»­a sá»• báº­t lĂªn.",
-                                                               "ThĂ´ng tin phiĂªn báº£n vĂ  ghi chĂº cáº­p nháº­t nay Ä‘Æ°á»£c hiá»ƒn thá»‹ rĂµ rĂ ng hÆ¡n trong á»©ng dá»¥ng.",
-                                                               "Sáº¯p xáº¿p láº¡i thá»© tá»± chá»©c nÄƒng Ä‘á»ƒ cĂ¡c thao tĂ¡c thÆ°á»ng dĂ¹ng dá»… truy cáº­p hÆ¡n.",
-                                                               "CĂ¡c tĂ­nh nÄƒng chÆ°a kháº£ dá»¥ng nay Ä‘Æ°á»£c vĂ´ hiá»‡u hĂ³a Ä‘á»ƒ trĂ¡nh lá»±a chá»n nháº§m.",
-                                                               "Bá»• sung há»— trá»£ gĂ³i phĂ¡t hĂ nh dĂ nh cho Windows."
-                                                           ]
-                                             }
-                               }
-                 }
+{
+  "schema": 1,
+  "min_supported_version": "",
+  "releases": {
+    "0.1.6": {
+      "published_at": "2026-07-14",
+      "from_tag": "release v0.1.4",
+      "from_commit": "3488723bab8e2125af0004f8ef574d2baff075d0",
+      "to_tag": "v0.1.6",
+      "to_commit": "c024bb9a1b08b1b439bc5635c480ccff5e5a5c10",
+      "notes": {
+        "en_US": [
+          "Added screen capture support for faster sharing and AI-assisted workflows.",
+          "Added quick access to ChatGPT, Claude, web search, and configured websites.",
+          "Improved website opening with configurable pop-up behavior.",
+          "Release version information and update notes are now displayed more clearly in the app.",
+          "Reordered available actions to make commonly used features easier to reach.",
+          "Unavailable features are now disabled to prevent accidental selection.",
+          "Added Windows release package support."
+        ],
+        "zh_CN": [
+          "新增屏幕截图功能，便于快速分享内容并配合 AI 工作流使用。",
+          "新增 ChatGPT、Claude、网页搜索和已配置网站的快捷入口。",
+          "优化网站打开方式，并支持可配置的弹窗行为。",
+          "应用内可更清晰地查看版本信息和更新说明。",
+          "调整功能排列顺序，让常用操作更易访问。",
+          "尚未开放的功能现在会被禁用，避免误操作。",
+          "新增 Windows 版本发布包支持。"
+        ],
+        "ja_JP": [
+          "画面キャプチャ機能を追加し、共有やAIを活用した操作をより簡単にしました。",
+          "ChatGPT、Claude、Web検索、設定済みWebサイトへすばやくアクセスできるようになりました。",
+          "Webサイトを開く動作を改善し、ポップアップの設定に対応しました。",
+          "アプリ内でバージョン情報とリリースノートをより分かりやすく確認できるようになりました。",
+          "よく使う機能へアクセスしやすいよう、操作項目の優先順位を調整しました。",
+          "未対応の機能を無効化し、誤操作を防止しました。",
+          "Windows向けリリースパッケージに対応しました。"
+        ],
+        "ko_KR": [
+          "화면 캡처 기능을 추가해 콘텐츠 공유와 AI 활용 작업을 더욱 편리하게 만들었습니다.",
+          "ChatGPT, Claude, 웹 검색 및 설정된 웹사이트로 빠르게 이동할 수 있습니다.",
+          "웹사이트 열기 동작을 개선하고 설정 가능한 팝업 방식을 지원합니다.",
+          "앱에서 버전 정보와 릴리스 노트를 더욱 명확하게 확인할 수 있습니다.",
+          "자주 사용하는 기능에 쉽게 접근할 수 있도록 기능 순서를 조정했습니다.",
+          "아직 제공되지 않는 기능은 실수로 선택하지 않도록 비활성화했습니다.",
+          "Windows 릴리스 패키지 지원을 추가했습니다."
+        ],
+        "fr_FR": [
+          "Ajout de la capture d’écran pour faciliter le partage et les flux de travail assistés par l’IA.",
+          "Ajout d’un accès rapide à ChatGPT, Claude, la recherche web et aux sites configurés.",
+          "Amélioration de l’ouverture des sites web avec un comportement de fenêtre contextuelle configurable.",
+          "Les informations de version et les notes de mise à jour sont désormais plus clairement affichées dans l’application.",
+          "Réorganisation des actions pour faciliter l’accès aux fonctions les plus utilisées.",
+          "Les fonctions non disponibles sont désormais désactivées afin d’éviter toute sélection accidentelle.",
+          "Ajout de la prise en charge du package de publication Windows."
+        ],
+        "de_DE": [
+          "Bildschirmaufnahmen wurden hinzugefügt, um Inhalte schneller zu teilen und KI-gestützte Abläufe zu vereinfachen.",
+          "Schnellzugriffe auf ChatGPT, Claude, die Websuche und konfigurierte Websites wurden ergänzt.",
+          "Das Öffnen von Websites wurde verbessert und unterstützt nun konfigurierbare Pop-up-Einstellungen.",
+          "Versionsinformationen und Veröffentlichungshinweise werden jetzt übersichtlicher in der App angezeigt.",
+          "Häufig verwendete Funktionen sind durch eine neue Anordnung leichter erreichbar.",
+          "Noch nicht verfügbare Funktionen sind jetzt deaktiviert, um versehentliche Auswahl zu vermeiden.",
+          "Unterstützung für Windows-Veröffentlichungspakete wurde hinzugefügt."
+        ],
+        "es_ES": [
+          "Se añadió la captura de pantalla para facilitar el uso compartido y los flujos de trabajo asistidos por IA.",
+          "Se añadió acceso rápido a ChatGPT, Claude, la búsqueda web y los sitios configurados.",
+          "Se mejoró la apertura de sitios web con un comportamiento de ventanas emergentes configurable.",
+          "La información de versión y las notas de actualización ahora se muestran con mayor claridad en la aplicación.",
+          "Se reorganizaron las acciones para facilitar el acceso a las funciones más utilizadas.",
+          "Las funciones que todavía no están disponibles ahora aparecen deshabilitadas para evitar selecciones accidentales.",
+          "Se añadió compatibilidad con el paquete de lanzamiento para Windows."
+        ],
+        "pt_BR": [
+          "Adicionamos a captura de tela para facilitar o compartilhamento e os fluxos de trabalho com IA.",
+          "Adicionamos acesso rápido ao ChatGPT, Claude, pesquisa na web e sites configurados.",
+          "Melhoramos a abertura de sites com comportamento de janela pop-up configurável.",
+          "As informações da versão e as notas de atualização agora são exibidas com mais clareza no aplicativo.",
+          "Reorganizamos as ações para facilitar o acesso aos recursos mais utilizados.",
+          "Recursos ainda indisponíveis agora ficam desativados para evitar seleções acidentais.",
+          "Adicionamos suporte ao pacote de lançamento para Windows."
+        ],
+        "ru_RU": [
+          "Добавлена функция захвата экрана для удобного обмена содержимым и работы с ИИ.",
+          "Добавлен быстрый доступ к ChatGPT, Claude, веб-поиску и настроенным сайтам.",
+          "Улучшено открытие сайтов и добавлена настройка поведения всплывающих окон.",
+          "Информация о версии и примечания к обновлению теперь отображаются в приложении более наглядно.",
+          "Изменён порядок действий, чтобы часто используемые функции были доступнее.",
+          "Недоступные функции теперь отключены, чтобы избежать случайного выбора.",
+          "Добавлена поддержка выпуска установочного пакета для Windows."
+        ],
+        "vi_VN": [
+          "Bổ sung tính năng chụp màn hình, giúp chia sẻ nội dung và sử dụng các quy trình hỗ trợ bởi AI thuận tiện hơn.",
+          "Bổ sung lối tắt để mở nhanh ChatGPT, Claude, tìm kiếm web và các trang web đã cấu hình.",
+          "Cải thiện cách mở trang web và hỗ trợ tùy chỉnh hành vi cửa sổ bật lên.",
+          "Thông tin phiên bản và ghi chú cập nhật nay được hiển thị rõ ràng hơn trong ứng dụng.",
+          "Sắp xếp lại thứ tự chức năng để các thao tác thường dùng dễ truy cập hơn.",
+          "Các tính năng chưa khả dụng nay được vô hiệu hóa để tránh lựa chọn nhầm.",
+          "Bổ sung hỗ trợ gói phát hành dành cho Windows."
+        ]
+      }
+    }
+  }
 }
