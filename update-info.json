@@ -1,0 +1,28 @@
+﻿{
+    "schema":  1,
+    "min_supported_version":  "",
+    "releases":  {
+                     "0.1.5":  {
+                                   "published_at":  "2026-07-14",
+                                   "from_tag":  "release v0.1.4",
+                                   "from_commit":  "3488723bab8e2125af0004f8ef574d2baff075d0",
+                                   "to_tag":  "v0.1.5",
+                                   "to_commit":  "46892bc98746479ee6a8901fe12f4ac933a4927d",
+                                   "notes":  {
+                                                 "en_US":  [
+                                                               "Update logic show release notes \u0026 package",
+                                                               "Apply release version infomation in software",
+                                                               "Implement screen capture feature",
+                                                               "Apply config website popup",
+                                                               "Implement open website",
+                                                               "Apply brower for searching",
+                                                               "Implement open claude",
+                                                               "Implement open chatgpt",
+                                                               "Adjust the priority order of the functions",
+                                                               "Disable not yet implemented function",
+                                                               "Add package release for window"
+                                                           ]
+                                             }
+                               }
+                 }
+}
